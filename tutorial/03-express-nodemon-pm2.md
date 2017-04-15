@@ -55,7 +55,7 @@ export const APP_NAME = 'Hello App'
 export const isProd = process.env.NODE_ENV === 'production'
 ```
 
-Това е една полезна опция, с която да тествате дали сте в продукционен режим (production mode) или не. Коментарът `// eslint-disable-next-line import/prefer-default-export` е сложен, тъй като в момента имаме само един наименован файл, който експортираме. Можете да го премахнете когато добавяте други експорти в този файл.
+Това е една полезна опция, с която да тествате дали сте в производствен режим (production mode) или не. Коментарът `// eslint-disable-next-line import/prefer-default-export` е сложен, тъй като в момента имаме само един наименован файл, който експортираме. Можете да го премахнете когато добавяте други експорти в този файл.
 
 - Изпълнете `yarn add express compression`
 
